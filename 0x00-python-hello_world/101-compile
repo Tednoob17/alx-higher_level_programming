@@ -1,0 +1,4 @@
+#!/bin/bash
+n = "$PYFILE"
+mv $n $nc
+python3 -c  "$PYFILE" > "$nc"
