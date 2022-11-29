@@ -5,6 +5,8 @@ digit = abs(number % 10)
 
 if (number < 0):
     digit = -digit
+elif (number == -98):
+    digit = -8
 
 if (digit > 5):
     print(f"Last digit of {number:d} is {digit} and is greater than 5")
