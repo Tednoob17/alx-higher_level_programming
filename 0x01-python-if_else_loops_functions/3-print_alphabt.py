@@ -6,4 +6,3 @@ while (a <= 122):
     else:
         print(chr(a))
         a = a + 1
-
