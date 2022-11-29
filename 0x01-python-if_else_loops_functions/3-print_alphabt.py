@@ -1,8 +1,4 @@
 #!/usr/bin/python3
-a = 97
-while (a <= 122):
-    if (chr(a) == 'e' or chr(a) == 'q'):
-        a = a + 1
-    else:
-        print("{}".format(chr(a)))
-        a = a + 1
+for a in range(97, 123):
+    if (chr(a) != 'e' and chr(a) != 'q'):
+        print("{}".format(chr(a)), end="")
