@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-a = 'z'
-while (a <= 'z'):
-    print(f"{:a}")
-    a++
+a = 97
+while (a <= 122):
+    print(chr(a))
+    a = a + 1
