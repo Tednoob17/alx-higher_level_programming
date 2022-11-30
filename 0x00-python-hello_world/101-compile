@@ -1,3 +1,2 @@
 #!/bin/bash
-python3 -c $PYFILE > m
-mv m $PYFILE
+python3 -m compileall -b $PYFILE i
